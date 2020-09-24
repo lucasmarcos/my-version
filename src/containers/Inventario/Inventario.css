@@ -1,0 +1,22 @@
+.container-btns-inventario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
+.btn-secondary-inventario {
+  background-color: var(--cinza-fundo) !important;
+  color: var(--roxo-primario) !important;
+  border: solid 0.06em var(--roxo-primario) !important;
+  font-weight: bold !important;
+  transition: background-color 1s linear 1s;
+}
+
+.btn-secondary-inventario:hover {
+  background-color: var(--cinza-marcacao) !important;
+  opacity: 0.85;
+}

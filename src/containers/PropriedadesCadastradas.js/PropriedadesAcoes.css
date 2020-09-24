@@ -1,0 +1,24 @@
+.container-btns-propriedades-cadastradas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-secondary {
+  background-color: var(--cinza-fundo) !important;
+  color: var(--roxo-primario) !important;
+  border: solid 0.06em var(--roxo-primario) !important;
+  font-weight: bold !important;
+  transition: background-color 1s linear 1s;
+}
+
+.btn-secondary:hover {
+  background-color: var(--cinza-marcacao) !important;
+  opacity: 0.85;
+}
+
+.w-40 {
+  width: 40% !important;
+  margin-right: 1em !important;
+  margin-left: 1em !important;
+}

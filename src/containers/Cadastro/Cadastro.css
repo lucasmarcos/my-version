@@ -1,0 +1,22 @@
+.input-lg {
+    width: 60%;
+    margin-right: 10% !important;
+}
+
+.input-md {
+    width: 30%;
+}
+
+.ml-input-md {
+    margin-left: 5% !important;
+}
+
+.container-input-cnpj {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#check-cnpj {
+    font-size: 10pt;
+}
