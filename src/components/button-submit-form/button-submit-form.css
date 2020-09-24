@@ -1,0 +1,16 @@
+.btn-form {
+    margin: 2em 0 !important;
+    background-color: var(--roxo-primario) !important;
+    color: var(--cinza-hover) !important;
+    font-weight: bold !important;
+    transition: background-color 1s linear 1s;
+}
+
+.btn-form:hover {
+    background-color: var(--roxo-hover) !important;
+    opacity: 0.85;
+}
+
+.color-circular {
+    color: var(--verde-primario) !important;
+}
