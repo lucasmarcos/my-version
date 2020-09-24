@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/plugin-transform-react-jsx": "latest",
+    "parcel": "next",
+    "react": "next",
+    "react-dom": "next"
+  },
+  "scripts": {
+    "babel-watch": "babel -w ./src/index.js --out-dir ./www/js/",
+    "parcel-dev": "parcel ./src/index.html",
+    "parcel-build": "parcel build ./src/index.html"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  }
+}
