@@ -1,0 +1,6 @@
+.parcel-cache
+.yarn
+dist
+.pnp.js
+.yarnrc.yml
+yarn.lock
