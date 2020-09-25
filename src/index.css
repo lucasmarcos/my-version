@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  display: flex;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: azure;
+
+  flex: 1;
+
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  background-color: cadetblue;
+
+  flex: 3;
+
+  width: 100%;
+  height: 100%;
+}
