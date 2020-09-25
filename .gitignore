@@ -4,3 +4,4 @@ dist
 .pnp.js
 .yarnrc.yml
 yarn.lock
+node_modules
